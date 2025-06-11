@@ -1,0 +1,35 @@
+- id: lizard
+  name: lizard
+  description: "Run 'lizard' for code complexity analysis"
+  entry: lizard
+  language: python
+  types_or: [
+    c,
+    c++,
+    java,
+    c#,
+    javascript,
+    ts,
+    vue,
+    objective-c,
+    swift,
+    python,
+    ruby,
+    # ttcn,
+    php,
+    scala,
+    gdscript,
+    go,
+    lua,
+    rust,
+    # fortran,
+    kotlin,
+    solidity,
+    # erlang,
+    zig,
+    perl
+  ]
+  args: ["--warnings_only"]
+  require_serial: true
+  additional_dependencies: []
+  minimum_pre_commit_version: "2.9.2"
