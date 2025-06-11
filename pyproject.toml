@@ -1,0 +1,6 @@
+[project]
+name = "lizard-pre-commit"
+version = "0.0.0"
+dependencies = [
+    "lizard==1.17.31"
+]
